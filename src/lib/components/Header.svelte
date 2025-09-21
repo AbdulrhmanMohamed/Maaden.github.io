@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 	import { ThemeTogglerAdvanced, LanguageToggler, Drawer } from '$lib/components';
 	import { locale } from '$lib/stores/locale';
@@ -96,8 +97,9 @@
 				element.scrollIntoView({ behavior: 'smooth' });
 			}
 		} else {
-			// For page navigation, use SvelteKit's goto for SPA navigation
-			const urlWithLang = addLanguageParam(href);
+			// For page navigation, use SvelteKit's goto for SPA navigation with base path
+			const fullPath = base + href;
+			const urlWithLang = addLanguageParam(fullPath);
 			goto(urlWithLang);
 		}
 		isMenuOpen = false;
@@ -106,10 +108,9 @@
 
 	// Handle CTA click
 	const handleCTAClick = () => {
-		const element = document.querySelector('#contact');
-		if (element) {
-			element.scrollIntoView({ behavior: 'smooth' });
-		}
+		const fullPath = base + '/contact';
+		const urlWithLang = addLanguageParam(fullPath);
+		goto(urlWithLang);
 		logger('CTA button clicked');
 	};
 </script>
@@ -121,27 +122,26 @@
 			<div class="flex items-center justify-between w-full">
 				<!-- Logo -->
 				<div class="flex-shrink-0">
-					<a href={addLanguageParam('/')} class="btn btn-ghost hover:bg-transparent group flex items-center" onclick={() => handleMenuItemClick('/')}>
+					<button onclick={() => handleMenuItemClick('/')} class="btn btn-ghost hover:bg-transparent group flex items-center">
 						<img src="./images/logo.png" alt="Maaden Construction Logo" class="h-10 w-auto group-hover:scale-110 transition-transform duration-300" />
 						<div class="ml-3 hidden sm:block">
 							<span class="text-primary group-hover:scale-110 transition-transform duration-300 text-xl font-bold">{navData.logo.text}</span>
 							<span class="text-base-content ml-1 group-hover:text-primary transition-colors duration-300 text-sm">{navData.logo.subtext}</span>
 						</div>
-					</a>
+					</button>
 				</div>
 
 				<!-- Desktop Menu -->
 				<nav class="hidden lg:flex items-center space-x-1 xl:space-x-2 flex-1 justify-center max-w-2xl">
 					{#each navData.menu as item}
-						<a
-							href={addLanguageParam(item.href)}
+						<button
 							onclick={() => handleMenuItemClick(item.href)}
 							class="relative px-3 xl:px-4 py-2 rounded-lg font-medium transition-all duration-300 group {isActiveMenuItem(item.href) ? 'text-primary bg-primary/10' : 'text-base-content hover:bg-primary/10 hover:text-primary'}"
 						>
 							{item.label}
 							<!-- Hover indicator -->
 							<span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/4"></span>
-						</a>
+						</button>
 					{/each}
 				</nav>
 

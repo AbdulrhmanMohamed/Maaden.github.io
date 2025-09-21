@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { locale } from '$lib/stores/locale';
 	import { dataStore } from '$lib/stores/data';
 
@@ -41,8 +42,9 @@
 				element.scrollIntoView({ behavior: 'smooth' });
 			}
 		} else {
-			// For page navigation, use SvelteKit's goto for SPA navigation
-			const urlWithLang = addLanguageParam(href);
+			// For page navigation, use SvelteKit's goto for SPA navigation with base path
+			const fullPath = base + href;
+			const urlWithLang = addLanguageParam(fullPath);
 			goto(urlWithLang);
 		}
 		logger(`Footer link clicked: ${href}`);

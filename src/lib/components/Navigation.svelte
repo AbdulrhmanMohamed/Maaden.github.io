@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { ThemeTogglerAdvanced, LanguageToggler } from '$lib/components';
 	import { locale } from '$lib/stores/locale';
 	import { dataStore } from '$lib/stores/data';
@@ -62,8 +63,9 @@
 				element.scrollIntoView({ behavior: 'smooth' });
 			}
 		} else {
-			// Use SvelteKit's goto for proper routing
-			goto(href);
+			// Use SvelteKit's goto for proper routing with base path
+			const fullPath = base + href;
+			goto(fullPath);
 		}
 		isMenuOpen = false;
 		logger(`Navigated to: ${href}`);
@@ -71,7 +73,8 @@
 
 	// Handle CTA click
 	const handleCTAClick = () => {
-		goto('/contact');
+		const fullPath = base + '/contact';
+		goto(fullPath);
 		logger('CTA button clicked');
 	};
 </script>
@@ -82,7 +85,7 @@
 		<div class="container mx-auto px-4 w-full">
 			<div class="navbar-start">
 				<!-- Logo -->
-				<button onclick={() => goto('/')} class="btn btn-ghost hover:bg-transparent flex items-center">
+				<button onclick={() => goto(base + '/')} class="btn btn-ghost hover:bg-transparent flex items-center">
 					<img src="./images/logo.png" alt="Maaden Construction Logo" class="h-8 w-auto" />
 					<div class="ml-2 hidden sm:block">
 						<span class="text-primary text-lg font-bold">{navData.logo.text}</span>
