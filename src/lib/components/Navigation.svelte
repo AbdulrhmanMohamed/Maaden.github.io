@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
+	import { goto } from '$app/navigation';
 	import { ThemeTogglerAdvanced, LanguageToggler } from '$lib/components';
 	import { locale } from '$lib/stores/locale';
 	import { dataStore } from '$lib/stores/data';
@@ -60,6 +61,9 @@
 			if (element) {
 				element.scrollIntoView({ behavior: 'smooth' });
 			}
+		} else {
+			// Use SvelteKit's goto for proper routing
+			goto(href);
 		}
 		isMenuOpen = false;
 		logger(`Navigated to: ${href}`);
@@ -67,10 +71,7 @@
 
 	// Handle CTA click
 	const handleCTAClick = () => {
-		const element = document.querySelector('#contact');
-		if (element) {
-			element.scrollIntoView({ behavior: 'smooth' });
-		}
+		goto('/contact');
 		logger('CTA button clicked');
 	};
 </script>
@@ -81,13 +82,13 @@
 		<div class="container mx-auto px-4 w-full">
 			<div class="navbar-start">
 				<!-- Logo -->
-				<a href="#home" class="btn btn-ghost hover:bg-transparent flex items-center">
+				<button onclick={() => goto('/')} class="btn btn-ghost hover:bg-transparent flex items-center">
 					<img src="./images/logo.png" alt="Maaden Construction Logo" class="h-8 w-auto" />
 					<div class="ml-2 hidden sm:block">
 						<span class="text-primary text-lg font-bold">{navData.logo.text}</span>
 						<span class="text-base-content ml-1 text-sm">{navData.logo.subtext}</span>
 					</div>
-				</a>
+				</button>
 			</div>
 
 			<!-- Desktop Menu -->
@@ -95,13 +96,12 @@
 				<ul class="menu menu-horizontal px-1 gap-2">
 					{#each navData.menu as item}
 						<li>
-							<a
-								href={item.href}
+							<button
 								onclick={() => handleMenuItemClick(item.href)}
 								class="btn btn-ghost font-medium hover:bg-primary/10 hover:text-primary transition-all duration-300 {item.active ? 'text-primary bg-primary/10' : 'text-base-content'}"
 							>
 								{item.label}
-							</a>
+							</button>
 						</li>
 					{/each}
 				</ul>
@@ -156,13 +156,12 @@
 				<ul class="menu menu-vertical w-full gap-2">
 					{#each navData.menu as item}
 						<li>
-							<a
-								href={item.href}
+							<button
 								onclick={() => handleMenuItemClick(item.href)}
 								class="btn btn-ghost justify-start font-medium hover:bg-primary/10 hover:text-primary transition-all duration-300 {item.active ? 'text-primary bg-primary/10' : 'text-base-content'}"
 							>
 								{item.label}
-							</a>
+							</button>
 						</li>
 					{/each}
 				</ul>

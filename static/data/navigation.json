@@ -7,28 +7,28 @@
     "menu": [
       {
         "label": "Home",
-        "href": "/Maaden.github.io/",
+        "href": "/",
         "active": true
       },
       {
         "label": "About",
-        "href": "/Maaden.github.io/about",
+        "href": "/about",
         "active": false
       },
       {
         "label": "Services",
-        "href": "/Maaden.github.io/services",
+        "href": "/services",
         "active": false
       },
       {
         "label": "Contact",
-        "href": "/Maaden.github.io/contact",
+        "href": "/contact",
         "active": false
       }
     ],
     "cta": {
       "text": "Get Quote",
-      "href": "/Maaden.github.io/contact"
+      "href": "/contact"
     },
     "mobile": {
       "openText": "Menu",
@@ -43,28 +43,28 @@
     "menu": [
       {
         "label": "الرئيسية",
-        "href": "/Maaden.github.io/",
+        "href": "/",
         "active": true
       },
       {
         "label": "من نحن",
-        "href": "/Maaden.github.io/about",
+        "href": "/about",
         "active": false
       },
       {
         "label": "الخدمات",
-        "href": "/Maaden.github.io/services",
+        "href": "/services",
         "active": false
       },
       {
         "label": "اتصل بنا",
-        "href": "/Maaden.github.io/contact",
+        "href": "/contact",
         "active": false
       }
     ],
     "cta": {
       "text": "احصل على عرض سعر",
-      "href": "/Maaden.github.io/contact"
+      "href": "/contact"
     },
     "mobile": {
       "openText": "القائمة",
