@@ -17,7 +17,7 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: '/Maaden.github.io'
+			base: ''
 		},
 		alias:{
 		$lib: 'src/lib',
