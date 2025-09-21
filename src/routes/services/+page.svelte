@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
-	import { Card, Button } from '$lib/components';
+	import { Card, Button, ServiceModal } from '$lib/components';
 	import { locale } from '$lib/stores/locale';
 	import { dataStore } from '$lib/stores/data';
 	import { gsap } from 'gsap';
@@ -14,6 +14,10 @@
 
 	let pageData = $state<any>(null);
 	let currentLocale = $state('en');
+
+	// Modal state
+	let isModalOpen = $state(false);
+	let selectedService = $state<any>(null);
 
 	// Animation refs
 	let heroSection = $state<HTMLElement>();
@@ -35,6 +39,19 @@
 	dataStore.subscribe(store => {
 		pageData = store.services;
 	});
+
+	// Modal handlers
+	const openModal = (service: any) => {
+		selectedService = service;
+		isModalOpen = true;
+		logger(`Opening modal for service: ${service.title}`);
+	};
+
+	const closeModal = () => {
+		isModalOpen = false;
+		selectedService = null;
+		logger('Modal closed');
+	};
 
 	// Initialize scroll animations
 	const initScrollAnimations = () => {
@@ -250,7 +267,7 @@
 
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 				{#each pageData.services as service}
-					<div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 group">
+					<div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 group cursor-pointer" onclick={() => openModal(service)}>
 						<figure class="relative overflow-hidden">
 							<img src={service.image} alt={service.title} class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
 							<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -260,27 +277,37 @@
 							<h3 class="card-title text-2xl font-bold text-primary mb-3">
 								{service.title}
 							</h3>
-							<p class="text-base-content/80 mb-4 leading-relaxed">
+							<p class="text-base-content/80 mb-4 leading-relaxed line-clamp-3">
 								{service.description}
 							</p>
 							
 							<div class="space-y-2 mb-4">
-								{#each service.features as feature}
+								{#each service.features.slice(0, 3) as feature}
 									<div class="flex items-center text-sm text-base-content/70">
 										<div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
 										{feature}
 									</div>
 								{/each}
+								{#if service.features.length > 3}
+									<div class="text-xs text-primary/70 font-medium">
+										+{service.features.length - 3} more features
+									</div>
+								{/if}
 							</div>
 
-							<div class="flex justify-between items-center text-sm">
+							<div class="flex justify-between items-center text-sm mb-4">
 								<div class="text-primary font-semibold">{service.price}</div>
 								<div class="text-base-content/60">{service.duration}</div>
 							</div>
 
-							<div class="card-actions justify-end mt-4">
-								<Button variant="primary" size="sm">
-									Learn More
+							<div class="card-actions justify-end">
+								<Button variant="primary" size="sm" class="group/btn">
+									<span class="flex items-center">
+										View More
+										<svg class="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+										</svg>
+									</span>
 								</Button>
 							</div>
 						</div>
@@ -344,4 +371,21 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Service Modal -->
+	<ServiceModal 
+		bind:isOpen={isModalOpen}
+		service={selectedService}
+		onClose={closeModal}
+	/>
 {/if}
+
+<style>
+	/* Line clamp utility for text truncation */
+	.line-clamp-3 {
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+</style>
