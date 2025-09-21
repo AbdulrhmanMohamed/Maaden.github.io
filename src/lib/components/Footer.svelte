@@ -124,13 +124,12 @@
 					<ul class="space-y-1">
 						{#each footerData.links.services.items as item}
 							<li>
-								<a
-									href={item.href}
+								<button
 									onclick={() => handleLinkClick(item.href)}
-									class="text-sm text-base-content/70 hover:text-primary transition-colors duration-300"
+									class="text-sm text-base-content/70 hover:text-primary transition-colors duration-300 text-left"
 								>
 									{item.label}
-								</a>
+								</button>
 							</li>
 						{/each}
 					</ul>
@@ -142,13 +141,12 @@
 					<ul class="space-y-1">
 						{#each footerData.links.company.items as item}
 							<li>
-								<a
-									href={item.href}
+								<button
 									onclick={() => handleLinkClick(item.href)}
-									class="text-sm text-base-content/70 hover:text-primary transition-colors duration-300"
+									class="text-sm text-base-content/70 hover:text-primary transition-colors duration-300 text-left"
 								>
 									{item.label}
-								</a>
+								</button>
 							</li>
 						{/each}
 					</ul>
@@ -160,13 +158,12 @@
 					<ul class="space-y-1">
 						{#each footerData.links.projects.items as item}
 							<li>
-								<a
-									href={item.href}
+								<button
 									onclick={() => handleLinkClick(item.href)}
-									class="text-sm text-base-content/70 hover:text-primary transition-colors duration-300"
+									class="text-sm text-base-content/70 hover:text-primary transition-colors duration-300 text-left"
 								>
 									{item.label}
-								</a>
+								</button>
 							</li>
 						{/each}
 					</ul>
