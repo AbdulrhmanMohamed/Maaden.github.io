@@ -1,0 +1,92 @@
+{
+  "en": {
+    "title": "Building Excellence, Creating Dreams",
+    "subtitle": "Brilliance Means Shine",
+    "slogan": "Brilliance Means Shine",
+    "description": "With over 20 years of experience in the construction industry, Maaden Construction delivers exceptional projects that exceed expectations. From residential developments to commercial complexes, we build with precision, quality, and innovation.",
+    "primaryButton": {
+      "text": "Get Started",
+      "action": "contact"
+    },
+    "secondaryButton": {
+      "text": "View Projects",
+      "action": "projects"
+    },
+    "features": [
+      {
+        "icon": "🏗️",
+        "title": "Expert Craftsmanship",
+        "description": "Skilled professionals with decades of experience"
+      },
+      {
+        "icon": "⚡",
+        "title": "Fast Delivery",
+        "description": "Efficient project management and timely completion"
+      },
+      {
+        "icon": "💎",
+        "title": "Premium Quality",
+        "description": "Only the finest materials and construction methods"
+      }
+    ],
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "number": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "100%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
+  "ar": {
+    "title": "بناء التميز، صنع الأحلام",
+    "subtitle": "بريق يعني لمعان",
+    "slogan": "بريق يعني لمعان",
+    "description": "مع أكثر من 20 عاماً من الخبرة في صناعة البناء، تقدم شركة معادن للإنشاءات مشاريع استثنائية تتجاوز التوقعات. من التطويرات السكنية إلى المجمعات التجارية، نبني بدقة وجودة وابتكار.",
+    "primaryButton": {
+      "text": "ابدأ الآن",
+      "action": "contact"
+    },
+    "secondaryButton": {
+      "text": "عرض المشاريع",
+      "action": "projects"
+    },
+    "features": [
+      {
+        "icon": "🏗️",
+        "title": "الحرفية الخبيرة",
+        "description": "محترفون مهرة مع عقود من الخبرة"
+      },
+      {
+        "icon": "⚡",
+        "title": "التسليم السريع",
+        "description": "إدارة مشاريع فعالة وإنجاز في الوقت المحدد"
+      },
+      {
+        "icon": "💎",
+        "title": "الجودة المتميزة",
+        "description": "أفضل المواد وأساليب البناء فقط"
+      }
+    ],
+    "stats": [
+      {
+        "number": "500+",
+        "label": "مشروع مكتمل"
+      },
+      {
+        "number": "20+",
+        "label": "سنة خبرة"
+      },
+      {
+        "number": "100%",
+        "label": "رضا العملاء"
+      }
+    ]
+  }
+}

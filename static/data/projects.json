@@ -1,0 +1,248 @@
+{
+  "en": [
+    {
+      "id": "luxury-villa",
+      "title": "Luxury Villa Complex",
+      "description": "A stunning 15-villa residential complex featuring modern architecture and premium amenities in the heart of the city.",
+      "category": "Residential",
+      "year": "2023",
+      "area": "25,000 sqft",
+      "client": "Al-Rashid Group",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "luxury-villa-complex",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 1,
+      "status": "completed"
+    },
+    {
+      "id": "office-tower",
+      "title": "Modern Office Tower",
+      "description": "A 30-story commercial tower with state-of-the-art facilities, designed for maximum efficiency and sustainability.",
+      "category": "Commercial",
+      "year": "2023",
+      "area": "500,000 sqft",
+      "client": "Business District Authority",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "modern-office-tower",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 2,
+      "status": "completed"
+    },
+    {
+      "id": "shopping-mall",
+      "title": "Grand Shopping Mall",
+      "description": "A massive retail complex featuring 200+ stores, entertainment facilities, and parking for 5,000 vehicles.",
+      "category": "Commercial",
+      "year": "2022",
+      "area": "1,200,000 sqft",
+      "client": "Retail Ventures Inc.",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "grand-shopping-mall",
+      "isFeatured": false,
+      "isActive": true,
+      "order": 3,
+      "status": "completed"
+    },
+    {
+      "id": "highway-bridge",
+      "title": "Highway Bridge Extension",
+      "description": "A major infrastructure project connecting two districts with a 2.5km bridge featuring advanced engineering solutions.",
+      "category": "Infrastructure",
+      "year": "2022",
+      "area": "2.5 km",
+      "client": "Ministry of Transportation",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "highway-bridge-extension",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 4,
+      "status": "completed"
+    }
+  ],
+  "ar": [
+    {
+      "id": "luxury-villa",
+      "title": "مجمع الفلل الفاخرة",
+      "description": "مجمع سكني مذهل من 15 فيلا يتميز بالعمارة الحديثة والمرافق المتميزة في قلب المعادنة.",
+      "category": "سكني",
+      "year": "2023",
+      "area": "25,000 قدم مربع",
+      "client": "مجموعة الراشد",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "luxury-villa-complex",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 1,
+      "status": "completed"
+    },
+    {
+      "id": "office-tower",
+      "title": "برج المكاتب الحديث",
+      "description": "برج تجاري من 30 طابق مع مرافق متطورة، مصمم للكفاءة القصوى والاستدامة.",
+      "category": "تجاري",
+      "year": "2023",
+      "area": "500,000 قدم مربع",
+      "client": "هيئة المنطقة التجارية",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "modern-office-tower",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 2,
+      "status": "completed"
+    },
+    {
+      "id": "shopping-mall",
+      "title": "المول التجاري الكبير",
+      "description": "مجمع تجاري ضخم يضم أكثر من 200 متجر ومرافق ترفيهية وموقف سيارات لـ 5000 مركبة.",
+      "category": "تجاري",
+      "year": "2022",
+      "area": "1,200,000 قدم مربع",
+      "client": "شركة المشاريع التجارية",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "grand-shopping-mall",
+      "isFeatured": false,
+      "isActive": true,
+      "order": 3,
+      "status": "completed"
+    },
+    {
+      "id": "highway-bridge",
+      "title": "امتداد جسر الطريق السريع",
+      "description": "مشروع بنية تحتية رئيسي يربط منطقتين بجسر طوله 2.5 كم يتميز بحلول هندسية متقدمة.",
+      "category": "بنية تحتية",
+      "year": "2022",
+      "area": "2.5 كم",
+      "client": "وزارة النقل",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "highway-bridge-extension",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 4,
+      "status": "completed"
+    }
+  ],
+  "ar": [
+    {
+      "id": "luxury-villa",
+      "title": "مجمع الفلل الفاخرة",
+      "description": "مجمع سكني مذهل من 15 فيلا يتميز بالعمارة الحديثة والمرافق المتميزة في قلب المعادنة.",
+      "category": "سكني",
+      "year": "2023",
+      "area": "25,000 قدم مربع",
+      "client": "مجموعة الراشد",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "luxury-villa-complex",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 1,
+      "status": "completed"
+    },
+    {
+      "id": "office-tower",
+      "title": "برج المكاتب الحديث",
+      "description": "برج تجاري من 30 طابق مع مرافق متطورة، مصمم للكفاءة القصوى والاستدامة.",
+      "category": "تجاري",
+      "year": "2023",
+      "area": "500,000 قدم مربع",
+      "client": "هيئة المنطقة التجارية",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "modern-office-tower",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 2,
+      "status": "completed"
+    },
+    {
+      "id": "shopping-mall",
+      "title": "المول التجاري الكبير",
+      "description": "مجمع تجاري ضخم يضم أكثر من 200 متجر ومرافق ترفيهية وموقف سيارات لـ 5000 مركبة.",
+      "category": "تجاري",
+      "year": "2022",
+      "area": "1,200,000 قدم مربع",
+      "client": "شركة المشاريع التجارية",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "grand-shopping-mall",
+      "isFeatured": false,
+      "isActive": true,
+      "order": 3,
+      "status": "completed"
+    },
+    {
+      "id": "highway-bridge",
+      "title": "امتداد جسر الطريق السريع",
+      "description": "مشروع بنية تحتية رئيسي يربط منطقتين بجسر طوله 2.5 كم يتميز بحلول هندسية متقدمة.",
+      "category": "بنية تحتية",
+      "year": "2022",
+      "area": "2.5 كم",
+      "client": "وزارة النقل",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+      "gallery": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&crop=entropy&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop&crop=entropy&auto=format"
+      ],
+      "slug": "highway-bridge-extension",
+      "isFeatured": true,
+      "isActive": true,
+      "order": 4,
+      "status": "completed"
+    }
+  ]
+}

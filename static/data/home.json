@@ -1,0 +1,492 @@
+{
+  "en": {
+    "seo": {
+      "title": "Maaden Construction - Premier Building Excellence",
+      "description": "Leading construction company delivering exceptional residential, commercial, and infrastructure projects. 20+ years of expertise, premium quality, and client satisfaction.",
+      "keywords": "construction, building, residential, commercial, infrastructure, madeen, construction company, premium building"
+    },
+    "hero": {
+      "title": "Building Excellence, Creating Dreams",
+      "subtitle": "Brilliance Means Shine",
+      "description": "With over 20 years of experience in the construction industry, Maaden Construction delivers exceptional projects that exceed expectations. From residential developments to commercial complexes, we build with precision, quality, and innovation.",
+      "primaryButton": {
+        "text": "Get Started",
+        "action": "contact"
+      },
+      "secondaryButton": {
+        "text": "View Projects",
+        "action": "projects"
+      },
+      "features": [
+        {
+          "icon": "🏗️",
+          "title": "Expert Craftsmanship",
+          "description": "Skilled professionals with decades of experience"
+        },
+        {
+          "icon": "⚡",
+          "title": "Fast Delivery",
+          "description": "Efficient project management and timely completion"
+        },
+        {
+          "icon": "💎",
+          "title": "Premium Quality",
+          "description": "Only the finest materials and construction methods"
+        }
+      ],
+      "stats": [
+        {
+          "number": "500+",
+          "label": "Projects Completed"
+        },
+        {
+          "number": "20+",
+          "label": "Years Experience"
+        },
+        {
+          "number": "100%",
+          "label": "Client Satisfaction"
+        }
+      ]
+    },
+    "navigation": {
+      "logo": {
+        "text": "Maaden",
+        "subtext": "Construction"
+      },
+      "menu": [
+        {
+          "label": "Home",
+          "href": "/",
+          "active": true
+        },
+        {
+          "label": "About",
+          "href": "/about",
+          "active": false
+        },
+        {
+          "label": "Services",
+          "href": "/services",
+          "active": false
+        },
+        {
+          "label": "Contact",
+          "href": "/contact",
+          "active": false
+        }
+      ],
+      "cta": {
+        "text": "Get Quote",
+        "href": "/contact"
+      },
+      "mobile": {
+        "openText": "Menu",
+        "closeText": "Close"
+      }
+    },
+    "services": {
+      "title": "Our Premium Services",
+      "subtitle": "Excellence in Every Project",
+      "description": "We offer comprehensive construction services tailored to meet the highest standards of quality and innovation.",
+      "items": [
+        {
+          "id": "human-cadres",
+          "title": "Human Cadres",
+          "description": "The company includes a group of experts and specialists in the field of iron and cement, accountants and marketers at the highest level to meet the needs of customers for products and services (and after-sales and delivery services).",
+          "icon": "👥",
+          "features": ["Expert Specialists", "Iron & Cement Experts", "After-Sales Service"],
+          "price": "Professional Team",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/أهمية_التدريب_التعاوني.jpg",
+          "slug": "human-cadres",
+          "isActive": true,
+          "order": 1
+        },
+        {
+          "id": "transportation-management",
+          "title": "Transportation Management",
+          "description": "We have a fleet of heavy and semi-trailer vehicles to transport products from factories to construction sites in all parts of the country, which enables us to quickly implement them, no matter how far the distances are.",
+          "icon": "🚛",
+          "features": ["Heavy Fleet", "Nationwide Coverage", "Quick Delivery"],
+          "price": "Efficient Logistics",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/pexels-quintin-gellar-2199293-1-1024x683-1.jpg",
+          "slug": "transportation-management",
+          "isActive": true,
+          "order": 2
+        },
+        {
+          "id": "product-pricing",
+          "title": "Product Pricing",
+          "description": "Since its establishment, Maaden Construction Company has adopted an approach that it has followed, which is \"Opportunities are acquired like clouds.\" We will not seize these opportunities except by providing the best products at the lowest prices.",
+          "icon": "💰",
+          "features": ["Best Prices", "Quality Products", "Competitive Rates"],
+          "price": "Lowest Market Prices",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/PRAES-1.jpg",
+          "slug": "product-pricing",
+          "isActive": true,
+          "order": 3
+        },
+        {
+          "id": "warehouses",
+          "title": "Warehouses",
+          "description": "We provide a group of logistics warehouses in the closest locations to real estate development projects in order to meet the needs of our clients, which contributes to quickly meeting demand and ensuring that the project does not stop running out of materials.",
+          "icon": "🏭",
+          "features": ["Strategic Locations", "Quick Access", "Material Availability"],
+          "price": "Strategic Storage",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/image_gallery_6-1.jpg",
+          "slug": "warehouses",
+          "isActive": true,
+          "order": 4
+        }
+      ]
+    },
+    "clients": {
+      "title": "Our Clients",
+      "subtitle": "Authorized agent for the most important iron factories",
+      "description": "We are proud to be the authorized agent for the most prestigious iron factories in the region, providing high-quality materials for all construction projects.",
+      "items": [
+        {
+          "id": "ezz-steel",
+          "name": "Ezz Steel",
+          "nameAr": "حديد عز",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-عز-3.jpg",
+          "isActive": true,
+          "order": 1
+        },
+        {
+          "id": "iron-with-tea",
+          "name": "Iron with tea",
+          "nameAr": "حديد مع الشاي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/dbRfP9tn_400x400.png",
+          "isActive": true,
+          "order": 2
+        },
+        {
+          "id": "suez-steel",
+          "name": "Suez Steel",
+          "nameAr": "حديد السويس",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/السويس-للصلب.jpg",
+          "isActive": true,
+          "order": 3
+        },
+        {
+          "id": "egyptian-iron",
+          "name": "Egyptian iron",
+          "nameAr": "حديد المصريين",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-المصريين.jpg",
+          "isActive": true,
+          "order": 4
+        },
+        {
+          "id": "al-marakbi-steel",
+          "name": "Al Marakbi Steel",
+          "nameAr": "حديد المراكبي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-المراكبي.jpg",
+          "isActive": true,
+          "order": 5
+        },
+        {
+          "id": "al-geoushy-steel",
+          "name": "Al-Geoushy Steel",
+          "nameAr": "حديد الجيوشي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-الجيوشي.jpg",
+          "isActive": true,
+          "order": 6
+        },
+        {
+          "id": "al-jarhi-iron",
+          "name": "Al-Jarhi Iron",
+          "nameAr": "حديد الجارحي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/مجموعة-حديد-الجارحي.jpg",
+          "isActive": true,
+          "order": 7
+        },
+        {
+          "id": "decimal-iron",
+          "name": "Decimal iron",
+          "nameAr": "حديد العشري",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-العشري.jpg",
+          "isActive": true,
+          "order": 8
+        },
+        {
+          "id": "sarhan",
+          "name": "Sarhan",
+          "nameAr": "سرهان",
+          "image": "https://elsalba.com/wp-content/uploads/2025/06/images-4-1.png",
+          "isActive": true,
+          "order": 9
+        },
+        {
+          "id": "antar-steel",
+          "name": "Antar Steel",
+          "nameAr": "حديد عنتر",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-عنتر.jpg",
+          "isActive": true,
+          "order": 10
+        },
+        {
+          "id": "ayad",
+          "name": "Ayad",
+          "nameAr": "أياد",
+          "image": "https://elsalba.com/wp-content/uploads/2025/06/9b9c9621e2.jpg",
+          "isActive": true,
+          "order": 11
+        },
+        {
+          "id": "bianco",
+          "name": "Bianco",
+          "nameAr": "بيانكو",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-بيانكو.jpg",
+          "isActive": true,
+          "order": 12
+        }
+      ]
+    }
+  },
+  "ar": {
+    "seo": {
+      "title": "معادن للإنشاءات - التميز في البناء",
+      "description": "شركة إنشاءات رائدة تقدم مشاريع استثنائية في السكن والتجارة والبنية التحتية. أكثر من 20 عاماً من الخبرة والجودة المتميزة ورضا العملاء.",
+      "keywords": "إنشاءات، بناء، سكني، تجاري، بنية تحتية، معادن، شركة إنشاءات، بناء متميز"
+    },
+    "hero": {
+      "title": "بناء التميز، صنع الأحلام",
+      "subtitle": "بريق يعني لمعان",
+      "description": "مع أكثر من 20 عاماً من الخبرة في صناعة البناء، تقدم شركة معادن للإنشاءات مشاريع استثنائية تتجاوز التوقعات. من التطويرات السكنية إلى المجمعات التجارية، نبني بدقة وجودة وابتكار.",
+      "primaryButton": {
+        "text": "ابدأ الآن",
+        "action": "contact"
+      },
+      "secondaryButton": {
+        "text": "عرض المشاريع",
+        "action": "projects"
+      },
+      "features": [
+        {
+          "icon": "🏗️",
+          "title": "الحرفية الخبيرة",
+          "description": "محترفون مهرة مع عقود من الخبرة"
+        },
+        {
+          "icon": "⚡",
+          "title": "التسليم السريع",
+          "description": "إدارة مشاريع فعالة وإنجاز في الوقت المحدد"
+        },
+        {
+          "icon": "💎",
+          "title": "الجودة المتميزة",
+          "description": "أفضل المواد وأساليب البناء فقط"
+        }
+      ],
+      "stats": [
+        {
+          "number": "500+",
+          "label": "مشروع مكتمل"
+        },
+        {
+          "number": "20+",
+          "label": "سنة خبرة"
+        },
+        {
+          "number": "100%",
+          "label": "رضا العملاء"
+        }
+      ]
+    },
+    "navigation": {
+      "logo": {
+        "text": "معادن",
+        "subtext": "للإنشاءات"
+      },
+      "menu": [
+        {
+          "label": "الرئيسية",
+          "href": "/",
+          "active": true
+        },
+        {
+          "label": "من نحن",
+          "href": "/about",
+          "active": false
+        },
+        {
+          "label": "الخدمات",
+          "href": "/services",
+          "active": false
+        },
+        {
+          "label": "اتصل بنا",
+          "href": "/contact",
+          "active": false
+        }
+      ],
+      "cta": {
+        "text": "احصل على عرض سعر",
+        "href": "/contact"
+      },
+      "mobile": {
+        "openText": "القائمة",
+        "closeText": "إغلاق"
+      }
+    },
+    "services": {
+      "title": "خدماتنا المتميزة",
+      "subtitle": "التميز في كل مشروع",
+      "description": "نقدم خدمات إنشاءات شاملة مصممة لتلبية أعلى معايير الجودة والابتكار.",
+      "items": [
+        {
+          "id": "human-cadres",
+          "title": "الكوادر البشرية",
+          "description": "تضم الشركة مجموعة من الخبراء والمتخصصين في مجال الحديد والأسمنت والمحاسبين والتسويقيين على أعلى مستوى لتلبية احتياجات العملاء للمنتجات والخدمات (وخدمات ما بعد البيع والتسليم).",
+          "icon": "👥",
+          "features": ["خبراء متخصصون", "خبراء الحديد والأسمنت", "خدمة ما بعد البيع"],
+          "price": "فريق محترف",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/أهمية_التدريب_التعاوني.jpg",
+          "slug": "human-cadres",
+          "isActive": true,
+          "order": 1
+        },
+        {
+          "id": "transportation-management",
+          "title": "إدارة النقل",
+          "description": "لدينا أسطول من المركبات الثقيلة ونصف المقطورة لنقل المنتجات من المصانع إلى مواقع البناء في جميع أنحاء البلاد، مما يمكننا من تنفيذها بسرعة، مهما كانت المسافات بعيدة.",
+          "icon": "🚛",
+          "features": ["أسطول ثقيل", "تغطية وطنية", "تسليم سريع"],
+          "price": "لوجستيات فعالة",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/pexels-quintin-gellar-2199293-1-1024x683-1.jpg",
+          "slug": "transportation-management",
+          "isActive": true,
+          "order": 2
+        },
+        {
+          "id": "product-pricing",
+          "title": "تسعير المنتجات",
+          "description": "منذ تأسيسها، تبنت شركة السلبح لتجارة مواد البناء نهجاً اتبعته، وهو \"الفرص تُكتسب مثل السحب\". لن نستولي على هذه الفرص إلا بتقديم أفضل المنتجات بأقل الأسعار.",
+          "icon": "💰",
+          "features": ["أفضل الأسعار", "منتجات عالية الجودة", "أسعار تنافسية"],
+          "price": "أقل أسعار السوق",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/PRAES-1.jpg",
+          "slug": "product-pricing",
+          "isActive": true,
+          "order": 3
+        },
+        {
+          "id": "warehouses",
+          "title": "المستودعات",
+          "description": "نوفر مجموعة من المستودعات اللوجستية في أقرب المواقع لمشاريع التطوير العقاري لتلبية احتياجات عملائنا، مما يساهم في تلبية الطلب بسرعة وضمان عدم توقف المشروع عن نفاد المواد.",
+          "icon": "🏭",
+          "features": ["مواقع استراتيجية", "وصول سريع", "توفر المواد"],
+          "price": "تخزين استراتيجي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/image_gallery_6-1.jpg",
+          "slug": "warehouses",
+          "isActive": true,
+          "order": 4
+        }
+      ]
+    },
+    "clients": {
+      "title": "عملاؤنا",
+      "subtitle": "وكيل معتمد لأهم مصانع الحديد",
+      "description": "نفتخر بأننا الوكيل المعتمد لأعرق مصانع الحديد في المنطقة، نقدم مواد عالية الجودة لجميع مشاريع البناء.",
+      "items": [
+        {
+          "id": "ezz-steel",
+          "name": "Ezz Steel",
+          "nameAr": "حديد عز",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-عز-3.jpg",
+          "isActive": true,
+          "order": 1
+        },
+        {
+          "id": "iron-with-tea",
+          "name": "Iron with tea",
+          "nameAr": "حديد مع الشاي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/dbRfP9tn_400x400.png",
+          "isActive": true,
+          "order": 2
+        },
+        {
+          "id": "suez-steel",
+          "name": "Suez Steel",
+          "nameAr": "حديد السويس",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/السويس-للصلب.jpg",
+          "isActive": true,
+          "order": 3
+        },
+        {
+          "id": "egyptian-iron",
+          "name": "Egyptian iron",
+          "nameAr": "حديد المصريين",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-المصريين.jpg",
+          "isActive": true,
+          "order": 4
+        },
+        {
+          "id": "al-marakbi-steel",
+          "name": "Al Marakbi Steel",
+          "nameAr": "حديد المراكبي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-المراكبي.jpg",
+          "isActive": true,
+          "order": 5
+        },
+        {
+          "id": "al-geoushy-steel",
+          "name": "Al-Geoushy Steel",
+          "nameAr": "حديد الجيوشي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-الجيوشي.jpg",
+          "isActive": true,
+          "order": 6
+        },
+        {
+          "id": "al-jarhi-iron",
+          "name": "Al-Jarhi Iron",
+          "nameAr": "حديد الجارحي",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/مجموعة-حديد-الجارحي.jpg",
+          "isActive": true,
+          "order": 7
+        },
+        {
+          "id": "decimal-iron",
+          "name": "Decimal iron",
+          "nameAr": "حديد العشري",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-العشري.jpg",
+          "isActive": true,
+          "order": 8
+        },
+        {
+          "id": "sarhan",
+          "name": "Sarhan",
+          "nameAr": "سرهان",
+          "image": "https://elsalba.com/wp-content/uploads/2025/06/images-4-1.png",
+          "isActive": true,
+          "order": 9
+        },
+        {
+          "id": "antar-steel",
+          "name": "Antar Steel",
+          "nameAr": "حديد عنتر",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-عنتر.jpg",
+          "isActive": true,
+          "order": 10
+        },
+        {
+          "id": "ayad",
+          "name": "Ayad",
+          "nameAr": "أياد",
+          "image": "https://elsalba.com/wp-content/uploads/2025/06/9b9c9621e2.jpg",
+          "isActive": true,
+          "order": 11
+        },
+        {
+          "id": "bianco",
+          "name": "Bianco",
+          "nameAr": "بيانكو",
+          "image": "https://elsalba.com/wp-content/uploads/2024/05/حديد-بيانكو.jpg",
+          "isActive": true,
+          "order": 12
+        }
+      ]
+    }
+  }
+}

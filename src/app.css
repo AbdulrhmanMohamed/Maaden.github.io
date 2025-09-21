@@ -1,0 +1,357 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@plugin 'daisyui';
+
+/* ===== UTILITY CLASSES ===== */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== ULTRA-WIDE SCREEN SUPPORT ===== */
+/* Custom breakpoints for TV screens and ultra-wide displays */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+
+@media (min-width: 3840px) {
+  .container {
+    max-width: 2400px;
+  }
+}
+
+/* Madeen Custom Theme - Organized Color System */
+:root {
+  /* ===== BRAND COLORS ===== */
+  --madeen-gold: #D4AF37; /* Primary brand gold */
+  --madeen-gold-light: #E6C866; /* Light gold for accents */
+  --madeen-gold-dark: #B8941F; /* Dark gold for depth */
+  --madeen-brown: #8B4513; /* Secondary brand brown */
+  --madeen-brown-light: #A0522D; /* Light brown */
+  --madeen-brown-dark: #654321; /* Dark brown */
+  
+  /* ===== NEUTRAL GRAYS ===== */
+  --madeen-gray-50: #FAFAFA; /* Lightest gray */
+  --madeen-gray-100: #F5F5F5; /* Very light gray */
+  --madeen-gray-200: #E5E5E5; /* Light gray */
+  --madeen-gray-300: #D4D4D4; /* Medium light gray */
+  --madeen-gray-400: #A3A3A3; /* Medium gray */
+  --madeen-gray-500: #737373; /* Medium dark gray */
+  --madeen-gray-600: #525252; /* Dark gray */
+  --madeen-gray-700: #404040; /* Darker gray */
+  --madeen-gray-800: #262626; /* Very dark gray */
+  --madeen-gray-900: #171717; /* Darkest gray */
+  
+  /* ===== DAISYUI THEME MAPPING ===== */
+  /* Light Theme Colors */
+  --madeen-primary: var(--madeen-gold);
+  --madeen-primary-content: #000000;
+  --madeen-secondary: var(--madeen-brown);
+  --madeen-secondary-content: #FFFFFF;
+  --madeen-accent: var(--madeen-gold-light);
+  --madeen-accent-content: #000000;
+  --madeen-neutral: var(--madeen-gray-800);
+  --madeen-neutral-content: #FFFFFF;
+  --madeen-base-100: #FFFFFF;
+  --madeen-base-200: var(--madeen-gray-100);
+  --madeen-base-300: var(--madeen-gray-200);
+  --madeen-base-content: var(--madeen-gray-900);
+  --madeen-info: #3B82F6;
+  --madeen-info-content: #FFFFFF;
+  --madeen-success: #10B981;
+  --madeen-success-content: #FFFFFF;
+  --madeen-warning: #F59E0B;
+  --madeen-warning-content: #000000;
+  --madeen-error: #EF4444;
+  --madeen-error-content: #FFFFFF;
+}
+
+[data-theme="madeen-light"] {
+  /* ===== LIGHT THEME - BRIGHT & CLEAN ===== */
+  --color-primary: var(--madeen-gold);
+  --color-primary-content: #000000;
+  --color-secondary: var(--madeen-brown);
+  --color-secondary-content: #FFFFFF;
+  --color-accent: var(--madeen-gold-light);
+  --color-accent-content: #000000;
+  --color-neutral: var(--madeen-gray-800);
+  --color-neutral-content: #FFFFFF;
+  --color-base-100: #FFFFFF;
+  --color-base-200: var(--madeen-gray-100);
+  --color-base-300: var(--madeen-gray-200);
+  --color-base-content: var(--madeen-gray-900);
+  --color-info: #3B82F6;
+  --color-info-content: #FFFFFF;
+  --color-success: #10B981;
+  --color-success-content: #FFFFFF;
+  --color-warning: #F59E0B;
+  --color-warning-content: #000000;
+  --color-error: #EF4444;
+  --color-error-content: #FFFFFF;
+}
+
+[data-theme="madeen-dark"] {
+  /* ===== DARK THEME - SOPHISTICATED & ELEGANT ===== */
+  --color-primary: var(--madeen-gold);
+  --color-primary-content: #000000;
+  --color-secondary: var(--madeen-brown-light);
+  --color-secondary-content: #FFFFFF;
+  --color-accent: var(--madeen-gold-light);
+  --color-accent-content: #000000;
+  --color-neutral: var(--madeen-gray-300);
+  --color-neutral-content: var(--madeen-gray-900);
+  --color-base-100: var(--madeen-gray-900);
+  --color-base-200: var(--madeen-gray-800);
+  --color-base-300: var(--madeen-gray-700);
+  --color-base-content: var(--madeen-gray-100);
+  --color-info: #60A5FA;
+  --color-info-content: #000000;
+  --color-success: #34D399;
+  --color-success-content: #000000;
+  --color-warning: #FBBF24;
+  --color-warning-content: #000000;
+  --color-error: #F87171;
+  --color-error-content: #000000;
+}
+
+/* ===== THEME APPLICATION ===== */
+html {
+  font-family: 'Montserrat', sans-serif;
+  data-theme: madeen-light;
+}
+
+/* ===== LAYOUT FIXES ===== */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===== UTILITY CLASSES FOR BETTER COLOR ORGANIZATION ===== */
+
+/* Brand Color Utilities */
+.bg-brand-gold { background-color: var(--madeen-gold); }
+.bg-brand-gold-light { background-color: var(--madeen-gold-light); }
+.bg-brand-gold-dark { background-color: var(--madeen-gold-dark); }
+.bg-brand-brown { background-color: var(--madeen-brown); }
+.bg-brand-brown-light { background-color: var(--madeen-brown-light); }
+.bg-brand-brown-dark { background-color: var(--madeen-brown-dark); }
+
+.text-brand-gold { color: var(--madeen-gold); }
+.text-brand-gold-light { color: var(--madeen-gold-light); }
+.text-brand-gold-dark { color: var(--madeen-gold-dark); }
+.text-brand-brown { color: var(--madeen-brown); }
+.text-brand-brown-light { color: var(--madeen-brown-light); }
+.text-brand-brown-dark { color: var(--madeen-brown-dark); }
+
+/* Gradient Utilities */
+.bg-gradient-brand { background: linear-gradient(135deg, var(--madeen-gold), var(--madeen-brown)); }
+.bg-gradient-gold { background: linear-gradient(135deg, var(--madeen-gold-light), var(--madeen-gold-dark)); }
+.bg-gradient-brown { background: linear-gradient(135deg, var(--madeen-brown-light), var(--madeen-brown-dark)); }
+
+/* Section-specific Background Utilities */
+.bg-hero { background: linear-gradient(135deg, var(--color-base-100), var(--color-base-200)); }
+.bg-section { background: var(--color-base-200); }
+.bg-card { background: var(--color-base-100); }
+.bg-footer { background: linear-gradient(135deg, var(--color-base-200), var(--color-base-300)); }
+
+/* Construction Theme Section Backgrounds - Enhanced for Light Theme */
+.bg-construction-hero { 
+  background: linear-gradient(135deg, var(--color-base-100), var(--color-primary)/8, var(--color-secondary)/10); 
+}
+
+.bg-construction-section { 
+  background: linear-gradient(135deg, var(--color-base-200), var(--color-primary)/6, var(--color-secondary)/8); 
+}
+
+.bg-construction-card { 
+  background: linear-gradient(135deg, var(--color-base-100), var(--color-primary)/4, var(--color-secondary)/6); 
+  border: 1px solid var(--color-primary)/10;
+}
+
+.bg-construction-alt { 
+  background: linear-gradient(135deg, var(--color-base-300), var(--color-primary)/8, var(--color-secondary)/12); 
+}
+
+.bg-construction-accent { 
+  background: linear-gradient(135deg, var(--color-primary)/12, var(--color-base-200), var(--color-secondary)/10); 
+}
+
+/* Enhanced Light Theme Specific Backgrounds */
+[data-theme="madeen-light"] .bg-construction-hero {
+  background: linear-gradient(135deg, #FFFFFF, var(--color-primary)/12, var(--color-secondary)/15);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="madeen-light"] .bg-construction-section {
+  background: linear-gradient(135deg, #F8F9FA, var(--color-primary)/10, var(--color-secondary)/12);
+  border-top: 1px solid var(--color-primary)/15;
+  border-bottom: 1px solid var(--color-primary)/15;
+}
+
+[data-theme="madeen-light"] .bg-construction-card {
+  background: linear-gradient(135deg, #FFFFFF, var(--color-primary)/6, var(--color-secondary)/8);
+  border: 1px solid var(--color-primary)/20;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme="madeen-light"] .bg-construction-alt {
+  background: linear-gradient(135deg, #F1F3F4, var(--color-primary)/12, var(--color-secondary)/15);
+  border-top: 1px solid var(--color-primary)/20;
+  border-bottom: 1px solid var(--color-primary)/20;
+}
+
+[data-theme="madeen-light"] .bg-construction-accent {
+  background: linear-gradient(135deg, var(--color-primary)/15, #F8F9FA, var(--color-secondary)/12);
+  border: 1px solid var(--color-primary)/25;
+}
+
+/* Dark Theme Specific Backgrounds (Enhanced) */
+[data-theme="madeen-dark"] .bg-construction-hero {
+  background: linear-gradient(135deg, var(--color-base-100), var(--color-primary)/4, var(--color-secondary)/6);
+}
+
+[data-theme="madeen-dark"] .bg-construction-section {
+  background: linear-gradient(135deg, var(--color-base-200), var(--color-primary)/3, var(--color-secondary)/5);
+}
+
+[data-theme="madeen-dark"] .bg-construction-card {
+  background: linear-gradient(135deg, var(--color-base-100), var(--color-primary)/2, var(--color-secondary)/4);
+  border: 1px solid var(--color-primary)/15;
+}
+
+[data-theme="madeen-dark"] .bg-construction-alt {
+  background: linear-gradient(135deg, var(--color-base-300), var(--color-primary)/5, var(--color-secondary)/8);
+}
+
+[data-theme="madeen-dark"] .bg-construction-accent {
+  background: linear-gradient(135deg, var(--color-primary)/6, var(--color-base-200), var(--color-secondary)/6);
+}
+
+/* Text Hierarchy Utilities */
+.text-hero-title { 
+  color: var(--color-primary);
+  font-weight: 900;
+  line-height: 1.1;
+}
+.text-hero-subtitle { 
+  color: var(--color-base-content);
+  font-weight: 300;
+  opacity: 0.9;
+}
+.text-section-title { 
+  color: var(--color-primary);
+  font-weight: 700;
+}
+.text-section-subtitle { 
+  color: var(--color-base-content);
+  font-weight: 400;
+  opacity: 0.8;
+}
+.text-body { 
+  color: var(--color-base-content);
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+/* Interactive State Utilities */
+.hover-lift { 
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover-lift:hover { 
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.hover-glow { 
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover-glow:hover { 
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+/* Premium Effects */
+.premium-shadow { 
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.premium-glow { 
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);
+}
+
+/* Light Theme Enhanced Visual Hierarchy */
+[data-theme="madeen-light"] .section-divider {
+  border-top: 2px solid var(--color-primary)/20;
+  border-bottom: 1px solid var(--color-primary)/10;
+}
+
+[data-theme="madeen-light"] .card-elevated {
+  background: linear-gradient(135deg, #FFFFFF, var(--color-primary)/8, var(--color-secondary)/10);
+  border: 1px solid var(--color-primary)/25;
+  box-shadow: 
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+    0 4px 6px -2px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(212, 175, 55, 0.1);
+}
+
+[data-theme="madeen-light"] .section-highlight {
+  background: linear-gradient(135deg, var(--color-primary)/8, #F8F9FA, var(--color-secondary)/10);
+  border: 1px solid var(--color-primary)/20;
+  position: relative;
+}
+
+[data-theme="madeen-light"] .section-highlight::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+}
+
+/* Enhanced Light Theme Text Contrast */
+[data-theme="madeen-light"] .text-on-light-bg {
+  color: var(--color-base-content);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="madeen-light"] .text-on-dark-bg {
+  color: var(--color-base-content);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Light Theme Interactive States */
+[data-theme="madeen-light"] .hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.15), 
+    0 10px 20px -5px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(212, 175, 55, 0.2);
+}
+
+[data-theme="madeen-light"] .hover-glow:hover {
+  box-shadow: 
+    0 0 25px rgba(212, 175, 55, 0.3),
+    0 0 50px rgba(212, 175, 55, 0.1);
+}

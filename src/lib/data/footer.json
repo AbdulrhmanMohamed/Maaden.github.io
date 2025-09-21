@@ -1,0 +1,143 @@
+{
+  "en": {
+    "company": {
+      "name": "Maaden Construction",
+      "description": "Premier construction company delivering exceptional projects with 20+ years of expertise, premium quality, and unmatched client satisfaction.",
+      "logo": {
+        "text": "Maaden",
+        "subtext": "Construction"
+      }
+    },
+    "links": {
+      "services": {
+        "title": "Services",
+        "items": [
+          { "label": "Residential Construction", "href": "#services" },
+          { "label": "Commercial Construction", "href": "#services" },
+          { "label": "Renovation & Remodeling", "href": "#services" },
+          { "label": "Infrastructure Projects", "href": "#services" }
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "items": [
+          { "label": "About Us", "href": "#about" },
+          { "label": "Our Team", "href": "#about" },
+          { "label": "Careers", "href": "#careers" },
+          { "label": "News & Updates", "href": "#news" }
+        ]
+      },
+      "projects": {
+        "title": "Projects",
+        "items": [
+          { "label": "Featured Projects", "href": "#projects" },
+          { "label": "Residential", "href": "#projects" },
+          { "label": "Commercial", "href": "#projects" },
+          { "label": "Infrastructure", "href": "#projects" }
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "items": [
+          { "label": "Contact Us", "href": "#contact" },
+          { "label": "Get Quote", "href": "#contact" },
+          { "label": "FAQ", "href": "#faq" },
+          { "label": "Support Center", "href": "#support" }
+        ]
+      }
+    },
+    "contact": {
+      "address": "123 Construction Street, Building District, City 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@maadenconstruction.com",
+      "hours": "Mon-Fri: 8:00 AM - 6:00 PM"
+    },
+    "social": {
+      "title": "Follow Us",
+      "links": [
+        { "name": "Facebook", "url": "https://facebook.com/maadenconstruction", "icon": "facebook" },
+        { "name": "LinkedIn", "url": "https://linkedin.com/company/maadenconstruction", "icon": "linkedin" },
+        { "name": "Instagram", "url": "https://instagram.com/maadenconstruction", "icon": "instagram" },
+        { "name": "Twitter", "url": "https://twitter.com/maadenconstruction", "icon": "twitter" }
+      ]
+    },
+    "legal": {
+      "copyright": "© 2024 Maaden Construction. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  },
+  "ar": {
+    "company": {
+      "name": "معادن للإنشاءات",
+      "description": "شركة إنشاءات رائدة تقدم مشاريع استثنائية مع أكثر من 20 عاماً من الخبرة والجودة المتميزة ورضا العملاء الذي لا مثيل له.",
+      "logo": {
+        "text": "معادن",
+        "subtext": "للإنشاءات"
+      }
+    },
+    "links": {
+      "services": {
+        "title": "الخدمات",
+        "items": [
+          { "label": "البناء السكني", "href": "#services" },
+          { "label": "البناء التجاري", "href": "#services" },
+          { "label": "التجديد والتطوير", "href": "#services" },
+          { "label": "مشاريع البنية التحتية", "href": "#services" }
+        ]
+      },
+      "company": {
+        "title": "الشركة",
+        "items": [
+          { "label": "من نحن", "href": "#about" },
+          { "label": "فريقنا", "href": "#about" },
+          { "label": "الوظائف", "href": "#careers" },
+          { "label": "الأخبار والتحديثات", "href": "#news" }
+        ]
+      },
+      "projects": {
+        "title": "المشاريع",
+        "items": [
+          { "label": "المشاريع المميزة", "href": "#projects" },
+          { "label": "سكني", "href": "#projects" },
+          { "label": "تجاري", "href": "#projects" },
+          { "label": "بنية تحتية", "href": "#projects" }
+        ]
+      },
+      "support": {
+        "title": "الدعم",
+        "items": [
+          { "label": "اتصل بنا", "href": "#contact" },
+          { "label": "احصل على عرض سعر", "href": "#contact" },
+          { "label": "الأسئلة الشائعة", "href": "#faq" },
+          { "label": "مركز الدعم", "href": "#support" }
+        ]
+      }
+    },
+    "contact": {
+      "address": "123 شارع البناء، حي المباني، المدينة 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@maadenconstruction.com",
+      "hours": "الاثنين-الجمعة: 8:00 ص - 6:00 م"
+    },
+    "social": {
+      "title": "تابعنا",
+      "links": [
+        { "name": "فيسبوك", "url": "https://facebook.com/maadenconstruction", "icon": "facebook" },
+        { "name": "لينكد إن", "url": "https://linkedin.com/company/maadenconstruction", "icon": "linkedin" },
+        { "name": "إنستغرام", "url": "https://instagram.com/maadenconstruction", "icon": "instagram" },
+        { "name": "تويتر", "url": "https://twitter.com/maadenconstruction", "icon": "twitter" }
+      ]
+    },
+    "legal": {
+      "copyright": "© 2024 معادن للإنشاءات. جميع الحقوق محفوظة.",
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة",
+      "cookies": "سياسة ملفات تعريف الارتباط"
+    }
+  }
+}
+
+
+

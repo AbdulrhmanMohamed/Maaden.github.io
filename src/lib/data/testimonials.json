@@ -1,0 +1,134 @@
+{
+  "en": [
+    {
+      "id": "client-1",
+      "name": "Ahmed Al-Rashid",
+      "position": "CEO",
+      "company": "Al-Rashid Group",
+      "content": "Maaden Construction delivered our luxury villa complex ahead of schedule and exceeded all our expectations. Their attention to detail and quality craftsmanship is unmatched.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "project": "Luxury Villa Complex",
+      "isActive": true,
+      "isFeatured": true,
+      "order": 1,
+      "date": "2023-12-15"
+    },
+    {
+      "id": "client-2",
+      "name": "Sarah Johnson",
+      "position": "Project Manager",
+      "company": "Business District Authority",
+      "content": "Working with Maaden Construction was a pleasure. Their team's professionalism and expertise made our office tower project a complete success.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "project": "Modern Office Tower",
+      "isActive": true,
+      "isFeatured": true,
+      "order": 2,
+      "date": "2023-11-20"
+    },
+    {
+      "id": "client-3",
+      "name": "Mohammed Hassan",
+      "position": "Director",
+      "company": "Retail Ventures Inc.",
+      "content": "The shopping mall project was completed on time and within budget. Maaden Construction's commitment to quality and customer satisfaction is evident in every project.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "project": "Grand Shopping Mall",
+      "isActive": true,
+      "isFeatured": false,
+      "order": 3,
+      "date": "2023-10-10"
+    }
+  ],
+  "ar": [
+    {
+      "id": "client-1",
+      "name": "أحمد الراشد",
+      "position": "الرئيس التنفيذي",
+      "company": "مجموعة الراشد",
+      "content": "سلمت شركة معادن للإنشاءات مجمع الفلل الفاخرة قبل الموعد المحدد وتجاوزت جميع توقعاتنا. انتباههم للتفاصيل والحرفية عالية الجودة لا مثيل لها.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "project": "مجمع الفلل الفاخرة",
+      "isActive": true,
+      "isFeatured": true,
+      "order": 1,
+      "date": "2023-12-15"
+    },
+    {
+      "id": "client-2",
+      "name": "سارة جونسون",
+      "position": "مدير المشروع",
+      "company": "هيئة المنطقة التجارية",
+      "content": "العمل مع شركة معادن للإنشاءات كان متعة. احترافية وخبرة فريقهم جعلت مشروع برج المكاتب نجاحاً كاملاً.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "project": "برج المكاتب الحديث",
+      "isActive": true,
+      "isFeatured": true,
+      "order": 2,
+      "date": "2023-11-20"
+    },
+    {
+      "id": "client-3",
+      "name": "محمد حسن",
+      "position": "مدير",
+      "company": "شركة المشاريع التجارية",
+      "content": "تم إنجاز مشروع المول التجاري في الوقت المحدد وفي حدود الميزانية. التزام شركة معادن للإنشاءات بالجودة ورضا العملاء واضح في كل مشروع.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "project": "المول التجاري الكبير",
+      "isActive": true,
+      "isFeatured": false,
+      "order": 3,
+      "date": "2023-10-10"
+    }
+  ],
+  "ar": [
+    {
+      "id": "client-1",
+      "name": "أحمد الراشد",
+      "position": "الرئيس التنفيذي",
+      "company": "مجموعة الراشد",
+      "content": "سلمت شركة معادن للإنشاءات مجمع الفلل الفاخرة قبل الموعد المحدد وتجاوزت جميع توقعاتنا. انتباههم للتفاصيل والحرفية عالية الجودة لا مثيل لها.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "project": "مجمع الفلل الفاخرة",
+      "isActive": true,
+      "isFeatured": true,
+      "order": 1,
+      "date": "2023-12-15"
+    },
+    {
+      "id": "client-2",
+      "name": "سارة جونسون",
+      "position": "مدير المشروع",
+      "company": "هيئة المنطقة التجارية",
+      "content": "العمل مع شركة معادن للإنشاءات كان متعة. احترافية وخبرة فريقهم جعلت مشروع برج المكاتب نجاحاً كاملاً.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "project": "برج المكاتب الحديث",
+      "isActive": true,
+      "isFeatured": true,
+      "order": 2,
+      "date": "2023-11-20"
+    },
+    {
+      "id": "client-3",
+      "name": "محمد حسن",
+      "position": "مدير",
+      "company": "شركة المشاريع التجارية",
+      "content": "تم إنجاز مشروع المول التجاري في الوقت المحدد وفي حدود الميزانية. التزام شركة معادن للإنشاءات بالجودة ورضا العملاء واضح في كل مشروع.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "project": "المول التجاري الكبير",
+      "isActive": true,
+      "isFeatured": false,
+      "order": 3,
+      "date": "2023-10-10"
+    }
+  ]
+}

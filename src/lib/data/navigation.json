@@ -1,0 +1,74 @@
+{
+  "en": {
+    "logo": {
+      "text": "Maaden",
+      "subtext": "Construction"
+    },
+    "menu": [
+      {
+        "label": "Home",
+        "href": "/",
+        "active": true
+      },
+      {
+        "label": "About",
+        "href": "/about",
+        "active": false
+      },
+      {
+        "label": "Services",
+        "href": "/services",
+        "active": false
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "active": false
+      }
+    ],
+    "cta": {
+      "text": "Get Quote",
+      "href": "/contact"
+    },
+    "mobile": {
+      "openText": "Menu",
+      "closeText": "Close"
+    }
+  },
+  "ar": {
+    "logo": {
+      "text": "معادن",
+      "subtext": "للإنشاءات"
+    },
+    "menu": [
+      {
+        "label": "الرئيسية",
+        "href": "/",
+        "active": true
+      },
+      {
+        "label": "من نحن",
+        "href": "/about",
+        "active": false
+      },
+      {
+        "label": "الخدمات",
+        "href": "/services",
+        "active": false
+      },
+      {
+        "label": "اتصل بنا",
+        "href": "/contact",
+        "active": false
+      }
+    ],
+    "cta": {
+      "text": "احصل على عرض سعر",
+      "href": "/contact"
+    },
+    "mobile": {
+      "openText": "القائمة",
+      "closeText": "إغلاق"
+    }
+  }
+}

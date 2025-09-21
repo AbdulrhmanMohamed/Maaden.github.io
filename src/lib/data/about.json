@@ -1,0 +1,288 @@
+{
+  "en": {
+    "seo": {
+      "title": "About Maaden Construction - Leading Construction Company in Middle East",
+      "description": "Learn about Maaden Construction's 20+ years of excellence in construction, our team of experts, and our commitment to building dreams across the Middle East.",
+      "keywords": "about madeen construction, construction company history, construction team, building expertise, middle east construction"
+    },
+    "hero": {
+      "title": "Building Excellence",
+      "subtitle": "Since 2003",
+      "description": "For over two decades, Maaden Construction has been at the forefront of construction excellence in the Middle East, delivering world-class projects that stand as testaments to our commitment to quality, innovation, and client satisfaction."
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "Two Decades of Excellence",
+      "description": "Founded in 2003 with a vision to transform the construction landscape in the Middle East, Maaden Construction has grown from a small local contractor to one of the region's most trusted construction companies.",
+      "timeline": [
+        {
+          "year": "2003",
+          "title": "Foundation",
+          "description": "Started as a small construction company with a vision to build excellence"
+        },
+        {
+          "year": "2008",
+          "title": "Expansion",
+          "description": "Expanded operations across the Gulf region with major infrastructure projects"
+        },
+        {
+          "year": "2015",
+          "title": "Innovation",
+          "description": "Introduced cutting-edge construction technologies and sustainable building practices"
+        },
+        {
+          "year": "2020",
+          "title": "Digital Transformation",
+          "description": "Embraced digital construction management and BIM technologies"
+        },
+        {
+          "year": "2024",
+          "title": "Future Ready",
+          "description": "Leading the industry with smart construction and green building solutions"
+        }
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "What Drives Us",
+      "description": "Our core values guide every project we undertake and every relationship we build.",
+      "items": [
+        {
+          "icon": "🏗️",
+          "title": "Quality First",
+          "description": "We never compromise on quality, ensuring every project meets the highest standards."
+        },
+        {
+          "icon": "🤝",
+          "title": "Client Partnership",
+          "description": "We build lasting relationships based on trust, transparency, and mutual respect."
+        },
+        {
+          "icon": "💡",
+          "title": "Innovation",
+          "description": "We embrace new technologies and methods to deliver better results."
+        },
+        {
+          "icon": "🌱",
+          "title": "Sustainability",
+          "description": "We're committed to environmentally responsible construction practices."
+        },
+        {
+          "icon": "⚡",
+          "title": "Excellence",
+          "description": "We strive for excellence in every aspect of our work and service."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Safety",
+          "description": "Safety is our top priority for our team, clients, and communities."
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The Experts Behind Our Success",
+      "description": "Our diverse team of professionals brings together decades of experience and expertise to deliver exceptional construction projects.",
+      "members": [
+        {
+          "name": "Ahmed Al-Rashid",
+          "position": "CEO & Founder",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+          "experience": "25+ years",
+          "specialization": "Strategic Leadership"
+        },
+        {
+          "name": "Sarah Johnson",
+          "position": "Chief Operations Officer",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
+          "experience": "20+ years",
+          "specialization": "Project Management"
+        },
+        {
+          "name": "Mohammed Hassan",
+          "position": "Head of Engineering",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+          "experience": "18+ years",
+          "specialization": "Structural Engineering"
+        },
+        {
+          "name": "Fatima Al-Zahra",
+          "position": "Design Director",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
+          "experience": "15+ years",
+          "specialization": "Architectural Design"
+        }
+      ]
+    },
+    "stats": {
+      "title": "Our Impact",
+      "subtitle": "Numbers That Speak",
+      "description": "Our achievements reflect our commitment to excellence and client satisfaction.",
+      "items": [
+        {
+          "number": "500+",
+          "label": "Projects Completed",
+          "description": "Successfully delivered projects across the Middle East"
+        },
+        {
+          "number": "20+",
+          "label": "Years Experience",
+          "description": "Two decades of construction excellence"
+        },
+        {
+          "number": "50+",
+          "label": "Expert Team",
+          "description": "Skilled professionals and specialists"
+        },
+        {
+          "number": "100%",
+          "label": "Client Satisfaction",
+          "description": "Consistently high client satisfaction ratings"
+        }
+      ]
+    }
+  },
+  "ar": {
+    "seo": {
+      "title": "حول شركة معادن للإنشاءات - الشركة الرائدة في الإنشاءات في الشرق الأوسط",
+      "description": "تعرف على أكثر من 20 عاماً من التميز في الإنشاءات لشركة معادن، فريقنا من الخبراء، والتزامنا ببناء الأحلام في الشرق الأوسط.",
+      "keywords": "حول شركة معادن للإنشاءات, تاريخ شركة الإنشاءات, فريق الإنشاءات, خبرة البناء, إنشاءات الشرق الأوسط"
+    },
+    "hero": {
+      "title": "بناء التميز",
+      "subtitle": "منذ 2003",
+      "description": "لأكثر من عقدين من الزمان، كانت شركة معادن للإنشاءات في طليعة التميز الإنشائي في الشرق الأوسط، حيث تقدم مشاريع عالمية المستوى تبرز التزامنا بالجودة والابتكار ورضا العملاء."
+    },
+    "story": {
+      "title": "قصتنا",
+      "subtitle": "عقدان من التميز",
+      "description": "تأسست في عام 2003 برؤية لتحويل المشهد الإنشائي في الشرق الأوسط، نمت شركة معادن للإنشاءات من مقاول محلي صغير إلى واحدة من أكثر شركات الإنشاءات الموثوقة في المنطقة.",
+      "timeline": [
+        {
+          "year": "2003",
+          "title": "التأسيس",
+          "description": "بدأت كشركة إنشاءات صغيرة برؤية لبناء التميز"
+        },
+        {
+          "year": "2008",
+          "title": "التوسع",
+          "description": "وسعت عملياتها عبر منطقة الخليج مع مشاريع البنية التحتية الكبرى"
+        },
+        {
+          "year": "2015",
+          "title": "الابتكار",
+          "description": "أدخلت تقنيات الإنشاءات المتطورة وممارسات البناء المستدامة"
+        },
+        {
+          "year": "2020",
+          "title": "التحول الرقمي",
+          "description": "تبنت إدارة الإنشاءات الرقمية وتقنيات نمذجة معلومات البناء"
+        },
+        {
+          "year": "2024",
+          "title": "جاهز للمستقبل",
+          "description": "تقود الصناعة بالإنشاءات الذكية وحلول المباني الخضراء"
+        }
+      ]
+    },
+    "values": {
+      "title": "قيمنا",
+      "subtitle": "ما يدفعنا",
+      "description": "قيمنا الأساسية توجه كل مشروع نقوم به وكل علاقة نبنيها.",
+      "items": [
+        {
+          "icon": "🏗️",
+          "title": "الجودة أولاً",
+          "description": "لا نتنازل أبداً عن الجودة، ونتأكد من أن كل مشروع يلبي أعلى المعايير."
+        },
+        {
+          "icon": "🤝",
+          "title": "شراكة العملاء",
+          "description": "نبني علاقات دائمة مبنية على الثقة والشفافية والاحترام المتبادل."
+        },
+        {
+          "icon": "💡",
+          "title": "الابتكار",
+          "description": "نتبنى التقنيات والطرق الجديدة لتقديم نتائج أفضل."
+        },
+        {
+          "icon": "🌱",
+          "title": "الاستدامة",
+          "description": "نلتزم بممارسات الإنشاءات المسؤولة بيئياً."
+        },
+        {
+          "icon": "⚡",
+          "title": "التميز",
+          "description": "نسعى للتميز في كل جانب من جوانب عملنا وخدمتنا."
+        },
+        {
+          "icon": "🛡️",
+          "title": "السلامة",
+          "description": "السلامة هي أولويتنا القصوى لفريقنا وعملائنا ومجتمعاتنا."
+        }
+      ]
+    },
+    "team": {
+      "title": "تعرف على فريقنا",
+      "subtitle": "الخبراء وراء نجاحنا",
+      "description": "يجمع فريقنا المتنوع من المهنيين عقوداً من الخبرة والخبرة لتقديم مشاريع إنشائية استثنائية.",
+      "members": [
+        {
+          "name": "أحمد الراشد",
+          "position": "الرئيس التنفيذي والمؤسس",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+          "experience": "25+ سنة",
+          "specialization": "القيادة الاستراتيجية"
+        },
+        {
+          "name": "سارة جونسون",
+          "position": "مدير العمليات الرئيسي",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
+          "experience": "20+ سنة",
+          "specialization": "إدارة المشاريع"
+        },
+        {
+          "name": "محمد حسن",
+          "position": "رئيس الهندسة",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+          "experience": "18+ سنة",
+          "specialization": "الهندسة الإنشائية"
+        },
+        {
+          "name": "فاطمة الزهراء",
+          "position": "مدير التصميم",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
+          "experience": "15+ سنة",
+          "specialization": "التصميم المعماري"
+        }
+      ]
+    },
+    "stats": {
+      "title": "تأثيرنا",
+      "subtitle": "أرقام تتحدث",
+      "description": "إنجازاتنا تعكس التزامنا بالتميز ورضا العملاء.",
+      "items": [
+        {
+          "number": "500+",
+          "label": "مشروع مكتمل",
+          "description": "مشاريع تم تسليمها بنجاح عبر الشرق الأوسط"
+        },
+        {
+          "number": "20+",
+          "label": "سنة خبرة",
+          "description": "عقدان من التميز الإنشائي"
+        },
+        {
+          "number": "50+",
+          "label": "فريق خبير",
+          "description": "مهنيون ومتخصصون مهرة"
+        },
+        {
+          "number": "100%",
+          "label": "رضا العملاء",
+          "description": "تقييمات رضا العملاء المرتفعة باستمرار"
+        }
+      ]
+    }
+  }
+}
