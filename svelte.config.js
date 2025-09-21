@@ -17,7 +17,7 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: ''
+			base: '/Maaden'
 		},
 		alias:{
 		$lib: 'src/lib',
