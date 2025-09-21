@@ -28,7 +28,7 @@ git add .
 git commit -m "Initial commit: Madeen construction portfolio"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/AbdulrhmanMohamed/Maaden.git
+git remote add origin https://github.com/AbdulrhmanMohamed/Maaden.github.io.git
 
 # Push to main branch
 git push -u origin main
@@ -96,7 +96,7 @@ pnpm run format       # Code formatting
 - Verify the workflow file is in `.github/workflows/deploy.yml`
 
 ### Site Not Loading
-- Check the GitHub Pages URL format: `https://abdulrhmanmohamed.github.io/Maaden`
+- Check the GitHub Pages URL format: `https://abdulrhmanmohamed.github.io/Maaden.github.io`
 - Verify the base path is set correctly in `svelte.config.js`
 - Check browser console for JavaScript errors
 
