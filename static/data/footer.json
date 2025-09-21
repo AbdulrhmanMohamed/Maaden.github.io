@@ -2,7 +2,7 @@
   "en": {
     "company": {
       "name": "Maaden Construction",
-      "description": "Premier construction company delivering exceptional projects with 20+ years of expertise, premium quality, and unmatched client satisfaction.",
+      "description": "Leading construction materials supplier and logistics company with expert human cadres, nationwide transportation, competitive pricing, and strategic warehouse facilities across the region.",
       "logo": {
         "text": "Maaden",
         "subtext": "Construction"
@@ -12,53 +12,53 @@
       "services": {
         "title": "Services",
         "items": [
-          { "label": "Residential Construction", "href": "#services" },
-          { "label": "Commercial Construction", "href": "#services" },
-          { "label": "Renovation & Remodeling", "href": "#services" },
-          { "label": "Infrastructure Projects", "href": "#services" }
+          { "label": "Human Cadres", "href": "/services" },
+          { "label": "Transportation Management", "href": "/services" },
+          { "label": "Product Pricing", "href": "/services" },
+          { "label": "Warehouse Facilities", "href": "/services" }
         ]
       },
       "company": {
         "title": "Company",
         "items": [
-          { "label": "About Us", "href": "#about" },
-          { "label": "Our Team", "href": "#about" },
-          { "label": "Careers", "href": "#careers" },
-          { "label": "News & Updates", "href": "#news" }
+          { "label": "About Us", "href": "/about" },
+          { "label": "Our Team", "href": "/about" },
+          { "label": "Our Clients", "href": "/about" },
+          { "label": "Quality Standards", "href": "/about" }
         ]
       },
       "projects": {
-        "title": "Projects",
+        "title": "Materials & Partners",
         "items": [
-          { "label": "Featured Projects", "href": "#projects" },
-          { "label": "Residential", "href": "#projects" },
-          { "label": "Commercial", "href": "#projects" },
-          { "label": "Infrastructure", "href": "#projects" }
+          { "label": "Iron & Steel", "href": "/about" },
+          { "label": "Cement Products", "href": "/about" },
+          { "label": "Authorized Dealers", "href": "/about" },
+          { "label": "Supply Chain", "href": "/about" }
         ]
       },
       "support": {
         "title": "Support",
         "items": [
-          { "label": "Contact Us", "href": "#contact" },
-          { "label": "Get Quote", "href": "#contact" },
-          { "label": "FAQ", "href": "#faq" },
-          { "label": "Support Center", "href": "#support" }
+          { "label": "Contact Us", "href": "/contact" },
+          { "label": "Get Quote", "href": "/contact" },
+          { "label": "Delivery Info", "href": "/contact" },
+          { "label": "Customer Service", "href": "/contact" }
         ]
       }
     },
     "contact": {
-      "address": "123 Construction Street, Building District, City 12345",
-      "phone": "+1 (555) 123-4567",
-      "email": "info@madeenconstruction.com",
-      "hours": "Mon-Fri: 8:00 AM - 6:00 PM"
+      "address": "Industrial Zone, Building Materials District, Cairo, Egypt",
+      "phone": "+20 2 1234 5678",
+      "email": "info@maadenconstruction.com",
+      "hours": "Sun-Thu: 8:00 AM - 6:00 PM"
     },
     "social": {
       "title": "Follow Us",
       "links": [
-        { "name": "Facebook", "url": "https://facebook.com/madeenconstruction", "icon": "facebook" },
-        { "name": "LinkedIn", "url": "https://linkedin.com/company/madeenconstruction", "icon": "linkedin" },
-        { "name": "Instagram", "url": "https://instagram.com/madeenconstruction", "icon": "instagram" },
-        { "name": "Twitter", "url": "https://twitter.com/madeenconstruction", "icon": "twitter" }
+        { "name": "Facebook", "url": "https://facebook.com/maadenconstruction", "icon": "facebook" },
+        { "name": "LinkedIn", "url": "https://linkedin.com/company/maadenconstruction", "icon": "linkedin" },
+        { "name": "Instagram", "url": "https://instagram.com/maadenconstruction", "icon": "instagram" },
+        { "name": "Twitter", "url": "https://twitter.com/maadenconstruction", "icon": "twitter" }
       ]
     },
     "legal": {
@@ -71,7 +71,7 @@
   "ar": {
     "company": {
       "name": "معادن للإنشاءات",
-      "description": "شركة إنشاءات رائدة تقدم مشاريع استثنائية مع أكثر من 20 عاماً من الخبرة والجودة المتميزة ورضا العملاء الذي لا مثيل له.",
+      "description": "شركة رائدة في توريد مواد البناء واللوجستيات مع كوادر بشرية خبيرة، ونقل على مستوى البلاد، وأسعار تنافسية، ومرافق مستودعات استراتيجية في جميع أنحاء المنطقة.",
       "logo": {
         "text": "معادن",
         "subtext": "للإنشاءات"
@@ -81,53 +81,53 @@
       "services": {
         "title": "الخدمات",
         "items": [
-          { "label": "البناء السكني", "href": "#services" },
-          { "label": "البناء التجاري", "href": "#services" },
-          { "label": "التجديد والتطوير", "href": "#services" },
-          { "label": "مشاريع البنية التحتية", "href": "#services" }
+          { "label": "الكوادر البشرية", "href": "/services" },
+          { "label": "إدارة النقل", "href": "/services" },
+          { "label": "تسعير المنتجات", "href": "/services" },
+          { "label": "مرافق المستودعات", "href": "/services" }
         ]
       },
       "company": {
         "title": "الشركة",
         "items": [
-          { "label": "من نحن", "href": "#about" },
-          { "label": "فريقنا", "href": "#about" },
-          { "label": "الوظائف", "href": "#careers" },
-          { "label": "الأخبار والتحديثات", "href": "#news" }
+          { "label": "من نحن", "href": "/about" },
+          { "label": "فريقنا", "href": "/about" },
+          { "label": "عملاؤنا", "href": "/about" },
+          { "label": "معايير الجودة", "href": "/about" }
         ]
       },
       "projects": {
-        "title": "المشاريع",
+        "title": "المواد والشركاء",
         "items": [
-          { "label": "المشاريع المميزة", "href": "#projects" },
-          { "label": "سكني", "href": "#projects" },
-          { "label": "تجاري", "href": "#projects" },
-          { "label": "بنية تحتية", "href": "#projects" }
+          { "label": "الحديد والصلب", "href": "/about" },
+          { "label": "منتجات الأسمنت", "href": "/about" },
+          { "label": "وكلاء معتمدون", "href": "/about" },
+          { "label": "سلسلة التوريد", "href": "/about" }
         ]
       },
       "support": {
         "title": "الدعم",
         "items": [
-          { "label": "اتصل بنا", "href": "#contact" },
-          { "label": "احصل على عرض سعر", "href": "#contact" },
-          { "label": "الأسئلة الشائعة", "href": "#faq" },
-          { "label": "مركز الدعم", "href": "#support" }
+          { "label": "اتصل بنا", "href": "/contact" },
+          { "label": "احصل على عرض سعر", "href": "/contact" },
+          { "label": "معلومات التسليم", "href": "/contact" },
+          { "label": "خدمة العملاء", "href": "/contact" }
         ]
       }
     },
     "contact": {
-      "address": "123 شارع البناء، حي المباني، المعادنة 12345",
-      "phone": "+1 (555) 123-4567",
-      "email": "info@madeenconstruction.com",
-      "hours": "الاثنين-الجمعة: 8:00 ص - 6:00 م"
+      "address": "المنطقة الصناعية، حي مواد البناء، القاهرة، مصر",
+      "phone": "+20 2 1234 5678",
+      "email": "info@maadenconstruction.com",
+      "hours": "الأحد-الخميس: 8:00 ص - 6:00 م"
     },
     "social": {
       "title": "تابعنا",
       "links": [
-        { "name": "فيسبوك", "url": "https://facebook.com/madeenconstruction", "icon": "facebook" },
-        { "name": "لينكد إن", "url": "https://linkedin.com/company/madeenconstruction", "icon": "linkedin" },
-        { "name": "إنستغرام", "url": "https://instagram.com/madeenconstruction", "icon": "instagram" },
-        { "name": "تويتر", "url": "https://twitter.com/madeenconstruction", "icon": "twitter" }
+        { "name": "فيسبوك", "url": "https://facebook.com/maadenconstruction", "icon": "facebook" },
+        { "name": "لينكد إن", "url": "https://linkedin.com/company/maadenconstruction", "icon": "linkedin" },
+        { "name": "إنستغرام", "url": "https://instagram.com/maadenconstruction", "icon": "instagram" },
+        { "name": "تويتر", "url": "https://twitter.com/maadenconstruction", "icon": "twitter" }
       ]
     },
     "legal": {
