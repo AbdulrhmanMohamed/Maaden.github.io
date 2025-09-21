@@ -53,5 +53,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.mandi }}
+          personal_token: ${{ secrets.mandi }}
           publish_dir: ./build
